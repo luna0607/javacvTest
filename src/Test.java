@@ -4,6 +4,7 @@ import static org.bytedeco.javacpp.opencv_core.IplImage;
 import static org.bytedeco.javacpp.opencv_core.cvFlip;
 /**
  * Created by gtiwari on 1/3/2017.
+ * Modified by Ariana on 24/20/2017
  */
 
 public class Test implements Runnable {
