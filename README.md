@@ -10,7 +10,7 @@ This project shows what the camera see.
 3. run
 
 P.S. If you guys upload here, don't forget to add your own .gitignore file!(remember to include .gitignore file into the ignorefile, too)
-I'll keep imporing it!
+I'll keep improving it!
 
 ## Links
 1. Sourced by 
