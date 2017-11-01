@@ -8,9 +8,10 @@ This project shows what the camera see.
 1. git pull
 2. mvn install ( you can also use Intelij or Eclipse's own maven )
 3. run TranscriberDemo.java
-4. 1) press an "Enter" key to see the text in the test.wav
+4. functions: 
+    1) (recommend)press an "Enter" key to see the text in the test.wav
     
-     2) Or type "live" and press an "Enter" key to convert your voice to text(by microphone)
+     2) (not reliable) type "live" and press an "Enter" key to convert your voice to text(by microphone)
 
 P.S. If you guys upload here, don't forget to add your own .gitignore file!(remember to include .gitignore file into the ignorefile, too)
 I'll keep improving it!
