@@ -12,7 +12,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 
-public class TranscriberDemo {       
+public class Voice {
 
     public static void main(String[] args) throws Exception {
         String str2="";
@@ -33,9 +33,9 @@ public class TranscriberDemo {
                 String text = textField.getText();
                 textArea.append("please wait...\n\n");
                 textArea.paintImmediately(textArea.getBounds());
-                TranscriberDemo transcriberDemo=new TranscriberDemo();
+                Voice voice=new Voice();
                 try {
-                    transcriberDemo.recognizeVoice(text,textArea);
+                    voice.recognizeVoice(text,textArea);
                 } catch (IOException e1) {
                     e1.printStackTrace();
                 }

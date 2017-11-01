@@ -7,11 +7,11 @@ import static org.bytedeco.javacpp.opencv_core.cvFlip;
  * Modified by Ariana on 24/20/2017
  */
 
-public class Test implements Runnable {
+public class Camera implements Runnable {
     final int INTERVAL = 100;///you may use interval
     CanvasFrame canvas = new CanvasFrame("Web Cam");
 
-    public Test() {
+    public Camera() {
         canvas.setDefaultCloseOperation(javax.swing.JFrame.EXIT_ON_CLOSE);
     }
 
@@ -44,7 +44,7 @@ public class Test implements Runnable {
     }
 
     public static void main(String[] args) {
-        Test gs = new Test();
+        Camera gs = new Camera();
         Thread th = new Thread(gs);
         th.start();
     }

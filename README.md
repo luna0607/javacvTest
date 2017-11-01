@@ -7,7 +7,7 @@ This project shows what the camera see.
 
 1. git pull
 2. mvn install ( you can also use Intelij or Eclipse's own maven )
-3. run TranscriberDemo.java
+3. run Voice.java
 4. functions: 
     1) (recommend)press an "Enter" key to see the text in the test.wav
     
