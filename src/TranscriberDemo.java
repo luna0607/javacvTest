@@ -43,7 +43,5 @@ public class TranscriberDemo {
 	    }
 	    recognizer.stopRecognition();
         }
-
-
     }
 }
